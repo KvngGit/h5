@@ -1,0 +1,18 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.index_bg {
+	width: 100%;
+	text-align: center;
+}
+
+.index_content {
+	width: 50%;
+	height: 100px;
+	line-height: 100px;
+	margin: 100px auto 0 auto;
+	font-family: SimHei;
+	font-size: 30px;
+}
