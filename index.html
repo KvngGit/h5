@@ -1,17 +1,88 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Welcome to Shawn Kent's WorkSpace</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/swiper.min.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 	</head>
 
 	<body>
-		<div class="index_bg">
-			<div class="index_content">
-				<img class="index_headpic" src="pic/ͷ��.jpg" />
-				<div class="index_text">���� <font color="#7288FD">��СP</font> �Ĳ���IP��ַ~</div>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="slide1-bg" id="slide1-bg">
+						<div class="slide1-panel" id="slide1-panel">
+							<div class="slide1-text">
+								这是 <font color="#7288FD">许小P</font> 的测试IP地址~
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slide2-bg" id="slide2-bg">
+						<div class="slide2-panel" id="slide2-panel">
+							<div class="slide2-text">
+								NO1. <br/>
+								当你因为除了我以外的某些事情不开心的时候<br/>
+								无论大小，无论大小，无论大小<br/>
+								重要的事情说三遍，一定要告诉我🤔<br/>
+								以前一个人的时候<br/>
+								可以让不开心的事情烂在肚子里<br/>
+								但是现在不一样了<br/>
+								因为有那么一个能够帮你分担坏心情的人<br/>
+								嗯对，那个人就是我啦~<br/>
+								尤其我们之间现在暂时还有170公里的距离在<br/>
+								小情绪&nbsp;&nbsp;&nbsp;&nbsp;可是很容易趁虚而入的👻<br/>
+								所以呢<br/>
+								有了&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;坏坏的小情绪苗头可一定要及时告知我~
+							</div>
+						</div>
+					</div>
+				</div>
+			
 			</div>
 		</div>
+		
+		<script src="js/swiper.min.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				/*pagination: '.swiper-pagination',*/
+				direction: 'vertical',
+				nextButton:'.swiper-button-next',
+				slidesPerView: 1,
+				paginationClickable: true,
+				spaceBetween: 0,
+				mousewheelControl: true
+			});
+			
+			//巨赞的自适应
+			if(screen.availWidth/screen.availHeight > 2/3)
+			{
+				var bg1 = document.getElementById('slide1-bg');
+				bg1.style.width = (bg1.clientHeight * 375/667) + "px";
+				
+				var bg2 = document.getElementById('slide2-bg');
+				bg2.style.width = (bg2.clientHeight * 375/667) + "px";
+				
+				var panel1 = document.getElementById('slide1-panel');
+				panel1.style.width = (panel1.clientHeight * 300/500) + "px";
+				
+				var panel2 = document.getElementById('slide2-panel');
+				panel2.style.width = (panel2.clientHeight * 300/500) + "px";	
+				
+				//var panel3 = document.getElementById('slide3-panel');
+				//panel3.style.width = (panel3.clientHeight * 64/100) + "px";
+				
+				//var panel4 = document.getElementById('slide4-panel');
+				//panel4.style.width = (panel4.clientHeight * 74/100) + "px";
+				
+				//var panel5 = document.getElementById('slide5-panel');
+				//panel5.style.width = (panel5.clientHeight * 75/100) + "px";
+			}
+		</script>
 	</body>
 </html>

@@ -1,32 +1,129 @@
 html, body {
-	margin: 0;
-	padding: 0;
+	position: relative;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
-.index_bg {
+.swiper-container {
 	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.swiper-slide {
+	/*text-align: center;
+	font-size: 18px;
+	background: #fff;*/
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-button-next {
+	background-image: url("http://cs5.witown.com/upload/20160120/merchant/04dc4/55295/04dc455295864d51b1cc03dcc80387a2.png");
+	background-size: contain;
+	width: 10vw;
+	height: 10vh;
+	max-width: 52px;
+	max-height: 48px;
+	-webkit-animation: start 1.5s infinite ease-in-out;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: auto;
+	bottom: 60px;
+}
+
+@-webkit-keyframes start {
+	0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+	60% {opacity: 1;-webkit-transform: translate(0,0);}
+	100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+	0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+	60% {opacity: 1;-moz-transform: translate(0,0);}
+	100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+	0%,30% {opacity: 0;transform: translate(0,10px);}
+	60% {opacity: 1;transform: translate(0,0);}
+	100% {opacity: 0;transform: translate(0,-8px);}
+}
+
+
+/*---------------------页面主体---------------------*/
+
+.slide1-bg {
+	width: 100%;
+	//max-width: 375px;
+	height: 100%;
+	//max-height: 667px;
+	margin: 0 auto; 
+	background-image: url(pic/封面页.jpg);
+	background-repeat: no-repeat;
+	//background-size: cover;
+	background-size: contain;
+	background-position-x: 50%;
+}
+
+.slide1-panel {
+	width: 80%;
+	max-width: 300px;
+	height: 75%;
+	//min-height: 500px;
+	margin: 0 auto;
 	text-align: center;
+	position: relative;
+	top: 8%;
 }
 
-.index_content {
-	width: 50%;
-	height: 100px;
-	margin: 100px auto 0 auto;
-}
-
-.index_headpic {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
-}
-
-.index_text {
-	width: 400px;
-	height: 100px;
-	line-height: 100px;
-	display: inline-block;
-	vertical-align: top;
+.slide1-text {
+	width: 70%;
+	margin: 80px auto 0 auto;
 	
-	font-family: SimHei;
-	font-size: 30px;
+	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-size: 1.5rem;
+	color: #ffffff;
+}
+
+
+
+.slide2-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(pic/第一页.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: 50%;
+}
+
+.slide2-panel {
+	width: 80%;
+	max-width: 300px;
+	height: 75%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	top: 2%;
+}
+
+.slide2-text {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	
+	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-size: 0.8rem;
+	color: #5a564d;
 }
