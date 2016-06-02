@@ -91,7 +91,7 @@ html, body {
 	width: 70%;
 	margin: 80px auto 0 auto;
 	
-	font-family: STXingkai,FZShuTi,'Tangerine',"SimHei";
+	font-family: "STXingkai","FZShuTi",'Tangerine',"SimHei";
 	font-size: 1.5rem;
 	color: #ffffff;
 }
@@ -120,7 +120,7 @@ html, body {
 	width: 100%;
 	margin: 0 auto 0 auto;
 	
-	font-family: STXingkai,FZShuTi,'Tangerine',"SimHei";
+	font-family: "STXingkai","FZShuTi",'Tangerine',"SimHei";
 	font-size: 0.8rem;
 	color: #5a564d;
 }
