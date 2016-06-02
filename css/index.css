@@ -124,3 +124,88 @@ html, body {
 	font-size: 0.8rem;
 	color: #5a564d;
 }
+
+
+
+.slide3-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(pic/第二页.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slide3-panel {
+	width: 80%;
+	max-width: 300px;
+	height: 75%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	top: 2%;
+}
+
+.slide3-text {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	
+	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-size: 0.8rem;
+	color: #5a564d;
+}
+
+
+.slide4-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(pic/第三页.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slide4-panel {
+	width: 80%;
+	max-width: 300px;
+	height: 75%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	top: 2%;
+}
+
+.slide4-text {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	
+	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-size: 0.8rem;
+	color: #5a564d;
+}
+
+
+.slide5-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(pic/末尾页.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slide5-panel {
+	width: 80%;
+	max-width: 300px;
+	height: 75%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	top: 2%;
+}
+
+.slide5-text {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	
+	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-size: 0.8rem;
+	color: #5a564d;
+}
