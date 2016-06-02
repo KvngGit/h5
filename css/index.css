@@ -9,7 +9,7 @@ html, body {
   font-family: 'STXingkai2';
   font-style: normal;
   font-weight: 400;
-  src: url(font/华文行楷.ttf) format('truetype');
+  src: local('STXingkai'),url(font/华文行楷.ttf) format('truetype');
 }
 
 .swiper-container {
