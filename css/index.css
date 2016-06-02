@@ -5,6 +5,14 @@ html, body {
 	padding: 0px;
 }
 
+/*@font-face {
+  font-family: 'STXingkai2';
+  font-style: normal;
+  font-weight: 400;
+  src: local('STXingkai'),url(font/STXingkai.woff2) format('woff2');
+  //src: local('STXingkai'),url(font/华文行楷.ttf) format('truetype');
+}*/
+
 .swiper-container {
 	width: 100%;
 	height: 100%;
@@ -91,7 +99,7 @@ html, body {
 	width: 70%;
 	margin: 80px auto 0 auto;
 	
-	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-family: "STXingkai","FZShuTi","KaiTi","SimHei";/*'STXingkai2',"FZShuTi",'Tangerine',"SimHei";*/
 	font-size: 1.5rem;
 	color: #ffffff;
 }
@@ -120,7 +128,7 @@ html, body {
 	width: 100%;
 	margin: 0 auto 0 auto;
 	
-	font-family: "华文行楷","方正舒体",'Tangerine',"SimHei";
+	font-family: "STXingkai","FZShuTi",'Tangerine',"SimHei";
 	font-size: 0.8rem;
 	color: #5a564d;
 }
