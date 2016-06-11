@@ -10,13 +10,14 @@
 	</head>
 
 	<body>
+		<audio src="http://sc.111ttt.com/up/mp3/153611/4D4B0826DEB8B33202F9C1ABB2618BBC.mp3" id="audio" hidden="true" autoplay="true" loop="true"></audio>
 		<!-- Swiper -->
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<div class="slide1-bg" id="slide1-bg">
 						<div class="slide1-panel" id="slide1-panel">
-							<div class="slide1-text">
+							<div class="slide1-text" id="slide1-text">
 								这是 <font color="#7288FD">许小P</font> 的测试IP地址~
 							</div>
 						</div>
@@ -25,7 +26,7 @@
 				<div class="swiper-slide">
 					<div class="slide2-bg" id="slide2-bg">
 						<div class="slide2-panel" id="slide2-panel">
-							<div class="slide2-text" hidden>
+							<div class="slide2-text" id="slide2-text" hidden>
 								NO1. <br/>
 								当你因为除了我以外的某些事情不开心的时候<br/>
 								无论大小，无论大小，无论大小<br/>
@@ -35,7 +36,7 @@
 								但是现在不一样了<br/>
 								因为有那么一个能够帮你分担坏心情的人<br/>
 								嗯对，那个人就是我啦~<br/>
-								尤其我们之间现在暂时还有170公里的距离在<br/>
+								尤其我们之间现在暂时还有176公里的距离在<br/>
 								小情绪&nbsp;&nbsp;&nbsp;&nbsp;可是很容易趁虚而入的👻<br/>
 								所以呢<br/>
 								有了&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;坏坏的小情绪苗头可一定要及时告知我~
@@ -46,7 +47,23 @@
 				<div class="swiper-slide">
 					<div class="slide3-bg" id="slide3-bg">
 						<div class="slide3-panel" id="slide3-panel">
-							<div class="slide3-text">
+							<div class="slide3-text" id="slide3-text" hidden>
+								NO2. <br/>
+								当你因为我，对，就是因为我这个罪魁祸首<br/>
+								欺负你或是让你不开心<br/>
+								而我又迟迟没有意识到自己已经闯下弥天大祸的时候<br/>
+								可以采取以下方式：<br/>
+								1.打电话找我撒气<br/>
+								2.打电话找我撒气<br/>
+								3.打电话找我撒气<br/>
+								（当然，如果我就在你身边，直接拿我出气也行~）<br/>
+								但是！<br/>
+								绝对绝对不许不理我<br/>
+								因为一个人大晚上胡思乱想是很可怕的<br/>
+								我不想你体验那种感觉<br/>
+								也不许一个人憋着一肚子委屈不告诉我<br/>
+								偷偷抹眼泪<br/>
+								因为那样我也会心疼。
 							</div>
 						</div>
 					</div>
@@ -54,7 +71,17 @@
 				<div class="swiper-slide">
 					<div class="slide4-bg" id="slide4-bg">
 						<div class="slide4-panel" id="slide4-panel">
-							<div class="slide4-text">
+							<div class="slide4-text" id="slide4-text" hidden>
+								NO3. <br/>
+								异地恋是辛苦的，对双方都是<br/>
+								但是<br/>
+								一定要对我抱有信心🙂<br/>
+								虽然我之前并没有异地恋的经历<br/>
+								但也正是因为这样<br/>
+								所以我才更需要你告诉我哪里做的不好<br/>
+								因为只有这样<br/>
+								我才能从你那得到更多的信心<br/>
+								然后也才能带给你更多的信心与坚持。
 							</div>
 						</div>
 					</div>
@@ -62,7 +89,7 @@
 				<div class="swiper-slide">
 					<div class="slide5-bg" id="slide5-bg">
 						<div class="slide5-panel" id="slide5-panel">
-							<div class="slide5-text">
+							<div class="slide5-text" id="slide5-text" hidden>
 							</div>
 						</div>
 					</div>
@@ -70,7 +97,9 @@
 			</div>
 		</div>
 		
-		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/swiper.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/functions_dev.js"></script>
 		<script>
 			var swiper = new Swiper('.swiper-container', {
 				/*pagination: '.swiper-pagination',*/
@@ -115,15 +144,11 @@
 				var panel5 = document.getElementById('slide5-panel');
 				panel5.style.width = (panel5.clientHeight * 300/500) + "px";
 				
-				//var panel3 = document.getElementById('slide3-panel');
-				//panel3.style.width = (panel3.clientHeight * 64/100) + "px";
-				
-				//var panel4 = document.getElementById('slide4-panel');
-				//panel4.style.width = (panel4.clientHeight * 74/100) + "px";
-				
-				//var panel5 = document.getElementById('slide5-panel');
-				//panel5.style.width = (panel5.clientHeight * 75/100) + "px";
 			}
+			
+			//$("#slide2-text").show();
+			//$("#slide2-text").typewriter1();
+			
 		</script>
 	</body>
 </html>
